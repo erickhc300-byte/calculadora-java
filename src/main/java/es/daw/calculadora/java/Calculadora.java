@@ -20,5 +20,10 @@ public class Calculadora {
     public double restar(double a, double b) {
         return a - b;
     }
-  
+    // Multiplica dos números
+
+    public double multiplicar(double a, double b) {
+        return a * b;
+   
+    }
 }
