@@ -40,4 +40,10 @@ public class Calculadora {
     public double potencia(double base, double exponente) {
         return Math.pow(base, exponente);
     }
+
+    // Calcula el resto de una división
+    public double modulo(double a, double b) {
+        return a % b;
+    }
+
 }
