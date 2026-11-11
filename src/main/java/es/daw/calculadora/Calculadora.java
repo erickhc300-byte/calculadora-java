@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package es.daw.calculadora.java;
+package es.daw.calculadora;
 
 /**
  *
@@ -34,5 +34,22 @@ public class Calculadora {
             );
         }
         return a / b;
+    }
+    // Calcula la potencia del numero
+
+    public double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+
+  
+    // Calcula el resto de una división
+    public double modulo(double a, double b) {
+        if (b == 0) {
+            throw new IllegalArgumentException(
+                "No se puede calcular el módulo entre cero"
+            );
+        }
+
+        return a % b;
     }
 }
