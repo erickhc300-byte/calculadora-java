@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package es.daw.calculadora.java;
+package es.daw.calculadora;
 
 /**
  *
  * @author wosit
  */
-public class CalculadoraJava {
+public class Main {
 
     public static void main(String[] args) {
        
